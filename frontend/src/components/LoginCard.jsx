@@ -1,5 +1,5 @@
 import React from "react";
-import "./LoginCard.css"; // optional separate CSS file
+import "./LoginCard.css"; 
 
 export default function LoginCard({ children }) {
   return (

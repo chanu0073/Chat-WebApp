@@ -1,10 +1,14 @@
-const Home = () => {
+import Sidebar from "../components/Sidebar";
+import ChatList from "../components/ChatList";
+import ChatWindow from "../components/ChatWindow";
+import "./Home.css";
+
+export default function Home() {
   return (
-    <div className="flex h-screen">
-      <div className="w-1/4 border-r">Sidebar</div>
-      <div className="flex-1">ChatWindow</div>
+    <div className="home">
+      <Sidebar />
+      <ChatList />
+      <ChatWindow />
     </div>
   );
-};
-
-export default Home;
+}
