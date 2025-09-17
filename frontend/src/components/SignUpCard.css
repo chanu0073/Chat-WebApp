@@ -1,0 +1,21 @@
+.signup-card {
+  width: 400px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  text-align: center;
+  margin: 50px auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.signup-card:hover {
+  transform: translateY(-5px);
+}
+
+.signup-title {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #333;
+}

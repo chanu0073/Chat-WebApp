@@ -14,7 +14,7 @@ export const AuthProvider = ({ children }) => {
     return unsubscribe;
   }, []);
 
-  // ✅ Make sure JSX is returned properly inside parentheses
+
   return (
     <AuthContext.Provider value={{ currentUser }}>
       {children}
