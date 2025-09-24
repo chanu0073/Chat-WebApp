@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../services/firebase";
-import "./LoginForm.css"; // optional separate CSS file
+import "./LoginForm.css"; 
 
 export default function LoginForm() {
   const [email, setEmail] = useState("");
